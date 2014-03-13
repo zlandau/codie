@@ -3,9 +3,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-from sourcefile import SourceFile
 import models
-from models import Tag
+from models import Tag, SourceFile
 
 Session = sessionmaker()
 
